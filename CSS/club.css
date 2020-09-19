@@ -1,0 +1,157 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0%;
+    background-color: gray;
+    font-family: 'Chakra Petch', sans-serif;
+}
+img{
+    width: 100%;
+}
+.cover-content{
+    position: absolute;
+    top: 150px;
+    left: 430px;
+}
+.content-text{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.nav-pos{
+    float: right;
+}
+.navbar{
+    background-color: transparent;
+}
+.nav ul{
+    float: right;
+    overflow: hidden;
+}
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+  }
+  .involve{
+      background-color: black;
+      color: white;
+  }
+  .card-title{
+      text-decoration: double;
+  }
+  .card-img-top{
+      border-radius: 20px;
+      padding: 10px 3px;
+  }
+  .heading1{
+    margin-top: 20px;
+      padding-left: 10px;
+      color: #f1f1f1;
+      font-family: 'Chakra Petch', sans-serif;
+  }
+  .para{
+      padding-top: 10px;
+      color: #f1f1f1;
+      font-family: 'Chakra Petch', sans-serif;
+  }
+  .label_activity{
+      text-align: center;
+    
+  }
+  .label{
+      font-size: 14px;
+      color: gray;
+  }
+  .section_heading{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #f1f1f1;
+  }
+  .hrule{
+    border-top: 1px solid rgb(255, 255, 255);
+  }
+  .asideheading{
+      margin-top: 20px;
+  }
+  .nav-inside{
+      border-radius: 10px;
+  }
+ a[id="carouselExampleCaptions"]:target #home{
+    margin-top: -60px;
+    padding-top: 30px;
+    height: 110vh;
+ }
+ a[id="discover"]:target #discover{
+    position: sticky;
+    top: 100px;
+ }
+ a[id="involve"]:target #involve{
+    margin-top: 10px;
+ }
+ a[id="events"]:target #events{
+    margin-top: 10px;
+ }
+ a[id="team"]:target #team{
+    margin-top: 10px;
+ }
+ .card-img-top{
+   
+    overflow: hidden;
+    
+ }
+ .card-img-top{
+   
+    transition: 0.5s;
+ }
+ .card:hover img{
+    transform: scale3d(1.05,1.05,1.05);
+
+}
+ .card{
+     transition: 0.3s;
+ }
+ .card:hover {
+    box-shadow: 0px 0px 18px 0px #d0d0d0;
+    border-color: #0d0a0e;
+}
+ 
+.socialbtns li {
+    list-style: none outside none;
+    margin-right: 20px;
+    width: 40px;
+    float: right;
+}
+.f1{
+    margin-top: -32px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.hbottom{
+    border-top: 1px solid rgb(255, 255, 255);
+    
+}
+.links-heading{
+    margin-left: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+  @media all and (max-width: 767px) {
+    .sidenav {
+      display: block;
+      border-radius: 10px;
+    }   
+  }
+  @media screen and (max-width:1200px){
+    .initial-cover{
+        display: none;
+    }
+  }
